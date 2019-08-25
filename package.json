@@ -1,0 +1,32 @@
+{
+  "name": "DorisTest",
+  "version": "1.0.0",
+  "description": "Nuxt tailwind project",
+  "author": "DorisChien",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.7.1",
+    "nuxt-purgecss": "^0.2.1"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "postcss-url": "^8.0.0",
+    "sass-loader": "^7.3.1",
+    "surge": "^0.21.3",
+    "tailwindcss": "^1.0.1"
+  }
+}
